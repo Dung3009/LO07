@@ -1,0 +1,39 @@
+
+body {
+    background-color: white;
+}
+
+.container {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    background-color: lemonchiffon;
+    width: 90%;
+}
+
+
+
+.panel {
+    margin: 40px 0px 24px 0px;
+}
+
+@font-face{
+    font-family: "punkTypewriter";
+    src: url("./Punk Typewriter.otf");
+    
+}
+@font-face{
+    font-family: "bright";
+    src: url("./Bright DEMO.otf");
+}
+.signature {
+   font-family: punkTypewriter;
+   font-size: 30px;
+   text-align: center;
+}
+.titre {
+    font-family: bright;
+}
+.jumbotron {
+  background-color:plum;
+  font-family: bright;
+}

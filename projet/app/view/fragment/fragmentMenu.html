@@ -1,0 +1,45 @@
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-expand">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">DUNG</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Famille
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="../router/router2.php?action=familleReadAll">Liste des familles</a></li>
+          <li><a href="../router/router2.php?action=familleCreate">Ajout d'une famille</a></li>
+          <li><a href="../router/router2.php?action=familleSelection">Selection d'une famille</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Evènement
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="../router/router2.php?action=evenementReadAll">Liste des évènements</a></li>
+          <li><a href="../router/router2.php?action=insertionEvenement">Ajout d'une évènements</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lien
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="../router/router2.php?action=lienReadAll">Liste des liens</a></li>
+          <li><a href="../router/router2.php?action=insertionLienParent">Ajout d'un lien parent</a></li>
+          <li><a href="../router/router2.php?action=insertionUnion">Ajout d'un lien union</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Individu
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="../router/router2.php?action=individuReadAll">Liste des individus</a></li>
+          <li><a href="../router/router2.php?action=insertionIndividu">Ajout d'un individu</a></li>
+          <li><a href="../router/router2.php?action=pageSelectIndividu">Page d'un individu</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
